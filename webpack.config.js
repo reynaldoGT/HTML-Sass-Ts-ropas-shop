@@ -22,7 +22,7 @@ module.exports = {
                     { loader: "sass-loader" },
                 ]
             }, {
-                test: /\.(jpg|png|gif|jpge)$/,
+                test: /\.(jpg|png|gif|jpge|svg)$/,
                 use: [
                     {
                         loader: 'file-loader',

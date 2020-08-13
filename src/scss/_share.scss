@@ -1,1 +1,43 @@
 //?Share styled
+
+@import "_media";
+
+.item-element {
+    padding: 20px;
+    @include media(sm) {
+        padding: 1rem;
+    }
+    &:hover {
+        background: #766ad0;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    i {
+        margin-right: 20px;
+        color: $primary-color-text;
+        font-size: 18px;
+    }
+
+    a {
+        color: $primary-color-text;
+    }
+}
+
+.header-responsive {
+    display: none;
+    background-color: $primary-color;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem;
+    @include media(sm) {
+        display: flex;
+    }
+    .title {
+        span {
+            h4 {
+                float: right;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

@@ -9,39 +9,305 @@
 </head>
 
 <body>
+
+    <header class="header-responsive">
+        <div class="title">
+            <span>
+                <i class="fas fa-shopping-bag" ></i>
+                <h4>OnShop</h4>
+            </span>
+
+        </div>
+        <span>
+            <i class="fas fa-bars" id="menu_drawer_menu"></i>
+        </span>
+
+
+    </header>
     <div class="container">
-        <div class="dash">
+        <div class="dash" id="dashboard">
             <div class="title">
-                On SHOP
-            </div>
-            <div class="items">
                 <span>
+                    <i class="fas fa-shopping-bag"></i>
+                    <h4>OnShop</h4>
+                </span>
+
+            </div>
+            <div class="items" id="items-menu">
+                <!-- <span class="item-element">
+                    <i class="fas fa-home"></i>
                     <a href="">Home</a>
                 </span>
-                <span>
-                    <a href="">Wallet</a>
+                <span class="item-element">
+                    <i class="fas fa-home"></i>
+                    <a href="">Home</a>
                 </span>
-                <span>
-                    <a href="">Cart</a>
-                </span>
+                <span class="item-element">
+                    <i class="fas fa-home"></i>
+                    <a href="">Home</a>
+                </span> -->
+
             </div>
             <div class="logOut">
-                <span>
-                    <a href="">Cart</a>
+                <span class="item-element">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <a href="">Salir</a>
                 </span>
             </div>
         </div>
         <div class="contenido">
-            <form action="">
-                <input type="text" name="" id="" placeholder="Searh Product">
-            </form>
+            <div class="header-page">
+                <form action="" class="find-product">
+                    <div class="search-product">
+                        <input class="input-search" type="text" name="" id="" placeholder="Search Product">
+                        <i class="formulario_validacion-estado fas fa-search"></i>
+                    </div>
+                </form>
+                <div class="profile">
+                    <div class="icons">
+                        <i class="fas fa-home"></i>
+                        <i class="fas fa-home"></i>
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="image-name">
+                        <img src="https://www.nunuoropesa.com/wp-content/uploads/2018/03/profile-img-1-300x300.jpg"
+                            >
+                        <span>Sarif Hossain</span>
+                    </div>
+                </div>
+            </div>
+
             <h1>Jeans</h1>
+            <br>
             <div class="cards-container">
-                <div class="card">caja1</div>
-                <div class="card">caja2</div>
-                <div class="card">caja3</div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card ">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <button class="button-now">Buy Now</button>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="cloth">
+                        <img src="./static/clothes.png" alt="no image">
+                    </div>
+
+                    <div class="description">
+
+                        <div class="ranking">
+                            <h4>
+                                Jean Pant
+                            </h4>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="price">
+                            $20.00
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
     </div>
 </body>
 
